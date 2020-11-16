@@ -1,0 +1,75 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1{
+  font-family: "San Francisco (Numbers)", FreightSansPro, Helvetica, sans-serif;
+  color: #585757;
+}
+
+p{
+  font-family: "San Francisco (Numbers)", FreightSansPro, Helvetica, sans-serif;
+  color: #585757;
+}
+
+#input{
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  height: 38px;
+  width: 500px;
+  box-shadow: 0px 2x lightgray;
+  margin: 0px;
+}
+
+#submit-btn{
+  background-color: #337ab7;
+  font-family: "San Francisco (Numbers)", FreightSansPro, Helvetica, sans-serif;
+  color: white;
+	height: 42px;
+	width: 55px;
+  border-radius: 5px;
+  margin: 0px;
+  border: 1px solid  #337ab7;
+  font-weight: bold;
+}
+
+body{
+  margin: 30px;
+}
+
+.quote{
+  font-family: "San Francisco (Numbers)", FreightSansPro, Helvetica, sans-serif;
+  color:#585757;
+
+}
+
+.signature{
+	font-family: "San Francisco (Numbers)", FreightSansPro, Helvetica, sans-serif;
+  font-style: italic;
+  color: #585757
+}
+
+.question{
+	border-left: 5px solid lightgray;
+	padding: 5px 15px;
+	margin-bottom: 20px;
+}
+
+.answer{
+	border-left: 5px solid lightgray;
+	padding: 5px 15px;
+	background-color: lightyellow;
+	margin-bottom: 20px;
+}
+
+.link{
+	font-family: "San Francisco (Numbers)", FreightSansPro, Helvetica, sans-serif;
+	color: rgba(60, 87, 161, 0.719);
+	text-decoration: none;
+	&:hover{
+		color: blue;
+	}
+}
+
+form {
+	display: block;
+}
